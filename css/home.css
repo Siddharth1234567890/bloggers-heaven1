@@ -1,0 +1,244 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0% 5%;
+    margin-left: 2%;
+    background-image: linear-gradient(to right, rgb(182, 238, 238) , rgb(236, 236, 110));
+}
+
+#logo{
+    width: 200px;
+    height: 150px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 5.5% 2%;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    nav ul li a{
+        font-size: 15px;
+    }
+
+    nav ul li{
+        padding: 60px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav ul #logo{
+        width: 150px;
+        height: 100px;
+        padding-top: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    nav ul li a{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+#home{
+    text-decoration: underline;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.introduction{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(206, 206, 206, 0.26);
+    padding: 20px;
+    padding-bottom: 5;
+    border-radius: 100px;
+}
+
+#intro-img{
+    display: flex;
+    width: 30%;
+    height: 30vh;
+    justify-content: center;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-family: 'Langar', cursive;
+    text-align: center;
+}
+
+
+#intro-text{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.hideen-intro{
+    display: none;
+}
+
+.showcontent{
+    display: inline-block;
+}
+
+#readmore{
+    text-align: center;
+    color: rgb(0, 255, 234);
+    text-decoration: underline;
+}
+
+#readmore:hover{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+@media only screen and (max-width: 650px){
+    #intro-img{
+        width: 36vh;
+        height: 25vh;
+    }
+}
+
+.bloggingarea{
+    display: flex;
+    margin: 4%;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 5;
+    border-radius: 100px;
+}
+
+#programmer-blog{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    justify-content: center;
+    margin: 2%;
+    margin: auto;
+}
+
+.aboutBlogger{
+    padding: 2%;
+    font-size:x-large;
+}
+
+.yourblog{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#blog{
+    width: 45%;
+    height: 20%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.inputs{
+    width: 70%;
+    margin: auto;
+}
+
+#file{
+    font-size: 20px;
+}
+
+#addingBlog{
+    font-size: x-large;
+    width: 50%;
+    height: 20%;
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.post{
+    width: 100px;
+    height: 50px;
+    
+    border-radius: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.posted_area{
+    width: 50%;
+    height: 40vh;
+    border: 2px solid black;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+#blogpost{
+    width: 50%;
+    height: 30vh;
+    display: block;
+    margin: auto;
+}
+
+#text_inside li{
+    list-style: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+#text_inside button{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 20px;    
+}
+
+
+#text_inside{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+@media only screen and(max-width: 500px){
+    #text_inside li{
+        font-size: 10px;
+        width: 80%;
+    }
+
+    #text_inside{
+        width: 100%;
+    }
+}

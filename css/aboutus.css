@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0% 5%;
+    margin-left: 2%;
+    background-image: linear-gradient(to right, rgb(182, 238, 238) , rgb(236, 236, 110));
+    font-family: 'Langar', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 15px;
+}
+
+#logo{
+    width: 200px;
+    height: 150px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 5.5% 2%;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px){
+    nav ul li a{
+        font-size: 15px;
+    }
+
+    nav ul li{
+        padding: 60px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav ul #logo{
+        width: 150px;
+        height: 100px;
+        padding-top: 23px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    nav ul li a{
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+
+#aboutus{
+    text-decoration: underline;
+}
+nav ul li a{
+    transition: all 1s ease-in-out;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.moto{
+    letter-spacing: 5px;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: rgba(20, 30, 20, 0.2);
+}
+
+.more{
+    display: none;
+}
+
+.contributers{
+    margin: 20px;
+    padding: 20px;
+}
+
+footer{
+    background-color: #ffffff;
+    font-size: 11px;
+}
