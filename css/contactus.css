@@ -65,3 +65,14 @@ nav ul li a{
 #contactus{
     text-decoration: underline;
 }
+
+.contactinformation{
+    margin-top: 20px;
+    
+}
+
+@media only screen and (max-width: 450px){
+    .contactinformation{
+        font-size: 10px;
+    }
+}
